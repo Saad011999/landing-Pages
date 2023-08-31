@@ -10,7 +10,7 @@ html,body{
     width: 100%;
     height: 100%;
     background-color: #07080d;
-    color: #F7F7F7;
+    color:  rgb(182, 182, 203);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -44,6 +44,13 @@ html,body{
 #nav #left #pic img{
     height: 50px;
     margin-left: 10px;
+}
+
+#pg1 #nav #menu{
+    background-color: transparent;
+    color:#07080d;
+    font-weight: 400;
+
 }
 
 #nav #right{
@@ -685,6 +692,8 @@ margin-top: -2px;
         align-items: center;
         padding: 2vh;
     }
+
+    
 
    #pg6 #line{
         display: none;
