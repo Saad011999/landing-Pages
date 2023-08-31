@@ -180,6 +180,7 @@ padding: 1vw;
 width: 70%;
 height: 70%;
 margin-top: 15px;
+margin-left: 15px;
 object-fit: cover ;
 }
 
@@ -275,7 +276,7 @@ padding: 1vw;
 #pg4 #right #line{
     width: 125px;
     margin-top: 4px;
-    margin-left: -4px;
+    margin-left: 13.5vw;
     margin-bottom: 15px;
     border-radius: 5px;
     height: 3px;
@@ -457,7 +458,7 @@ padding: 1vw;
 
   #pg6 #cards .elem{
     width: 200px;
-    height: 300px;
+    height: 320px;
     margin-top: 25px;
     border: rgb(182, 182, 203) solid 2px ;
     position: relative;
