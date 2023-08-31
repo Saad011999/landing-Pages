@@ -341,12 +341,18 @@ padding: 1vw;
   #pg5 #skills  .rings {
     display: flex;
     flex-direction: row;
+    
     /* margin-left: 490px; */
+  }
+
+  #pg5 #skills .rings svg{
+   padding: 2vh;
   }
   
   #pg5 #skills .rings .percent1,  svg, circle {
     width: 200px;
     height: 200px;
+    
   }
   
   #pg5 #skills .rings circle {
@@ -356,6 +362,7 @@ padding: 1vw;
     transform: translate(10px, 10px);
     stroke-dasharray: 440;
     stroke-linecap: round;
+   
   }
   
   #pg5 #skills .rings circle:nth-child(1) {
@@ -378,6 +385,7 @@ padding: 1vw;
     bottom: 190px;
     right: -50px;
     color:rgb(182, 182, 203);
+    left: 30%;
   }
   
   #pg5 #skills .rings h2 {
@@ -678,8 +686,22 @@ margin-top: -2px;
         padding: 2vh;
     }
 
-    #line{
+   #pg6 #line{
+        display: none;
+    }
+    #pg5 #line{
         display: none;
     }
 
+    #pg4 #line{
+        display: none;
+    }
+
+    #pg3 #line{
+        display: none;
+    }
+
+    #pg2 #line{
+        display: none;
+    }
 }
